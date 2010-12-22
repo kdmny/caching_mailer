@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{caching_mailer}
-  s.version = "1.1.0.beta1"
+  s.version = "1.1.0.beta2"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Demers", "Andrew Bloomgarden"]
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE",
     "README",
     "Rakefile",

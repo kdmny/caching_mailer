@@ -13,7 +13,6 @@ begin
     gemspec.email = "stalkingtiger@gmail.com"
     gemspec.homepage = "http://github.com/aughr/caching_mailer"
     gemspec.authors = ["Mike Demers", "Andrew Bloomgarden"]
-    gemspec.add_runtime_dependency "rails", "~> 3.1.0"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
